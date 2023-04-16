@@ -12,10 +12,10 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-image: url("./img/pain.jpg");
+    /* background-image: url("./img/pain.jpg");
     background-position: center;
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 .form{
     background-color: rgba(255,255,255,0.3);
@@ -24,6 +24,9 @@
     max-width: 1000px;
     text-align: center;
     text-transform: capitalize;
+    background-image: url(./img/rizzstar.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 .content{
     display: flex;
