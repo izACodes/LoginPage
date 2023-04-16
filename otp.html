@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="header">
+                <h2>Verification</h2>
+                <p>we send an OTP code to your number.</p>
+            </div>
+            <div class="content">
+                <input type="number" class="code" placeholder="0" min="0" max="9" required>
+                <input type="number" class="code" placeholder="0" min="0" max="9" required>
+                <input type="number" class="code" placeholder="0" min="0" max="9" required>
+                <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary">Verify</button>
+            </div>
+            <small>
+                If you don't received any code, click <a href="#">Resend</a>
+            </small>
+        </div>
+    </div>
+
+<script src="otp.js"></script>
+</body>
+</html>
